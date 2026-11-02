@@ -1,10 +1,11 @@
 {
+  "cleanUrls": true,
   "rewrites": [
-    { "source": "/", "destination": "/partners-data.txt" }
+    { "source": "/", "destination": "/partners-page-data.txt" }
   ],
   "headers": [
     {
-      "source": "/partners-data.txt",
+      "source": "/partners-page-data.txt",
       "headers": [
         {
           "key": "Content-Type",
